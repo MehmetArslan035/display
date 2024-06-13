@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+
+    <style>
+        a {
+            background-color: magenta;
+            margin: 10px;
+            padding: 40px;
+            /* display: block; */
+        }
+
+        button{
+            width: 100px;
+        }
+
+        span {
+            background-color: orange;
+            /* margin: 30px;
+            padding: 40px; */
+            width: 250px;
+            height: 150px;
+            display: inline-block;
+            margin: 10px;
+
+        }
+
+        
+        p {
+            background-color: peru;
+        }
+
+
+        .container{
+            border: 2px solid red;
+            text-align: center;
+        }
+
+        #par4{
+            width: 250px;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+
+        img{
+            margin: auto;
+            /* display: block; */
+        }
+
+        #orta{
+            background-color: fuchsia;
+            /* text-align: center; */
+            width: 250px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .s1{
+            background-color: teal;
+            
+        }
+
+        .s2{
+            background-color: crimson;
+            display: inline;
+            width: 250px;
+            height: 250px;
+
+        }
+
+        .box{
+            background-color: orange;
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+        }
+
+        .box2{
+            background-color: sienna;
+            /* display: none; */
+        }
+
+        .box5{
+            background-color: crimson;
+            /* visibility: hidden; */
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- inline element -->
+    <a href="">Clarusway</a>
+    <button>Buton</button> <!--! inline-block element -->
+    <span>Bu bir spandır</span>
+
+    <!-- block element -->
+
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p id="orta">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <div class="container">
+        <img src="https://picsum.photos/id/1/600/400" width="250px" alt="">
+        <p id="par4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolores reiciendis dignissimos alias tenetur, saepe ducimus eum vero repellat, cupiditate deserunt! Maiores nihil odit minus eum! Ab labore dolor pariatur.</p>
+    </div>
+
+    <section class="s1">Block</section>
+    <section class="s2">inline-Block</section>
+    <!-- <img src="https://picsum.photos/id/1/600/400" width="250px" alt=""> -->
+
+    <br><br><br><br><br>
+
+    <div class="box box1">div1</div>
+    <div class="box box2" onclick="this.style.display='none'">div2</div>
+    <div class="box box3">div3</div>
+
+    <br><br><br><br><br>
+
+    <div class="box box4">div1</div>
+    <div class="box box5" onclick="this.style.visibility='hidden'">div2</div>
+    <div class="box box6">div3</div>
+
+</body>
+
+</html>
